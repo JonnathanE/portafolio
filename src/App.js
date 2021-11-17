@@ -1,9 +1,10 @@
-import './App.css';
+import './App.scss';
+import Topbar from './components/topbar/Topbar';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <Topbar/>
     </div>
   );
 }
