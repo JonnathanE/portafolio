@@ -18,7 +18,6 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                         <span>ldsjfs@jede.com</span>
                     </div>
                 </div>
-                <h1>Hello</h1>
                 <div className="right">
                     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
