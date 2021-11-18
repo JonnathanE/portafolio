@@ -1,10 +1,12 @@
-import { React, useState } from 'react'
+import { React, useState, useEffect } from 'react'
 import PortfolioList from '../portfolioList/PortfolioList'
 import './portfolio.scss'
+import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio } from '../../data';
 
 const Portfolio = () => {
 
     const [selected, setSelected] = useState('featured')
+    const [data, setData] = useState([])
 
     const list = [
         {
@@ -17,7 +19,7 @@ const Portfolio = () => {
         },
         {
             id: 'mobile',
-            title: 'Movile App'
+            title: 'Mobile App'
         },
         {
             id: 'design',
@@ -29,6 +31,29 @@ const Portfolio = () => {
         }
     ]
 
+    useEffect(() => {
+        switch (selected) {
+            case 'featured':
+                setData(featuredPortfolio);
+                break;
+            case 'web':
+                setData(webPortfolio);
+                break;
+            case 'mobile':
+                setData(mobilePortfolio);
+                break;
+            case 'design':
+                setData(designPortfolio);
+                break;
+            case 'content':
+                setData(contentPortfolio);
+                break;
+            default:
+                setData(featuredPortfolio);
+                break;
+        }
+    }, [selected])
+
     return (
         <div className='portfolio' id='portfolio'>
             <h1>Portfolio</h1>
@@ -38,35 +63,12 @@ const Portfolio = () => {
                 ))}
             </ul>
             <div className="container">
-                <div className="item">
-                    <img src="https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg" alt="" />
-                    <h3>Banking App</h3>
-                </div>
-
-                <div className="item">
-                    <img src="https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg" alt="" />
-                    <h3>Banking App</h3>
-                </div>
-                <div className="item">
-                    <img src="https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg" alt="" />
-                    <h3>Banking App</h3>
-                </div>
-                <div className="item">
-                    <img src="https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg" alt="" />
-                    <h3>Banking App</h3>
-                </div>
-                <div className="item">
-                    <img src="https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg" alt="" />
-                    <h3>Banking App</h3>
-                </div>
-                <div className="item">
-                    <img src="https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg" alt="" />
-                    <h3>Banking App</h3>
-                </div>
-                <div className="item">
-                    <img src="https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg" alt="" />
-                    <h3>Banking App</h3>
-                </div>
+                {data.map(d => (
+                    <div className="item" key={d.id}>
+                        <img src={d.img} alt="" />
+                        <h3>{d.title}</h3>
+                    </div>
+                ))}
             </div>
         </div>
     )
