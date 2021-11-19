@@ -118,3 +118,31 @@ export const works = [
         img: 'https://www.academiaweb.ca/wp-content/uploads/2020/07/api-visual.png'
     }
 ]
+
+export const testimonials = [
+    {
+        id: 1,
+        name: 'Tom Durden',
+        title: 'Senior Developer',
+        img: 'https://cdn.pixabay.com/photo/2019/10/22/13/43/man-4568762_960_720.jpg',
+        icon: 'assets/twitter.png',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, et illo fugit reiciendis dicta quaerat magni.'
+    },
+    {
+        id: 2,
+        name: 'Alex Kalinski',
+        title: 'Co-Founder of DELKA',
+        img: 'https://cdn.pixabay.com/photo/2015/03/03/18/58/woman-657753_960_720.jpg',
+        icon: 'assets/youtube.png',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, et illo fugit reiciendis dicta quaerat magni.',
+        featured: true
+    },
+    {
+        id: 3,
+        name: 'Martin Harold',
+        title: 'CEO of ALBI',
+        img: 'https://cdn.pixabay.com/photo/2016/11/11/04/19/sport-1815798_960_720.jpg',
+        icon: 'assets/linkedin.png',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, et illo fugit reiciendis dicta quaerat magni.'
+    }
+]
