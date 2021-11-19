@@ -87,3 +87,34 @@ export const contentPortfolio = [
         img: 'https://cdn.frooition.com/000000/img/2018/website-collage.png'
     }
 ]
+
+export const works = [
+    {
+        id: '1',
+        icon: './assets/mobile.png',
+        title: 'Web Design',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae saepe mollitia.',
+        img: 'https://images-platform.99static.com//ZUU0DJkgfiPJzVKTgSEaii6H9G8=/5x0:1705x1700/fit-in/590x590/99designs-contests-attachments/111/111213/attachment_111213383'
+    },
+    {
+        id: '2',
+        icon: './assets/globe.png',
+        title: 'Mobile Application',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae saepe mollitia.',
+        img: 'https://cdn.dribbble.com/users/5261465/screenshots/14210557/media/59926a5895d53d6a9ad92175763f97a5.jpg?compress=1&resize=400x300'
+    },
+    {
+        id: '3',
+        icon: './assets/writing.png',
+        title: 'Branding',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae saepe mollitia.',
+        img: 'https://www.jessicajonesdesign.com/wp-content/uploads/2020/01/brand-designer-jessica-jones-logos.gif'
+    },
+    {
+        id: '4',
+        icon: './assets/writing.png',
+        title: 'API LSEC',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae saepe mollitia.',
+        img: 'https://www.academiaweb.ca/wp-content/uploads/2020/07/api-visual.png'
+    }
+]
