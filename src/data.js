@@ -110,13 +110,6 @@ export const works = [
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae saepe mollitia.',
         img: 'https://www.jessicajonesdesign.com/wp-content/uploads/2020/01/brand-designer-jessica-jones-logos.gif'
     },
-    {
-        id: '4',
-        icon: './assets/writing.png',
-        title: 'API LSEC',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae saepe mollitia.',
-        img: 'https://www.academiaweb.ca/wp-content/uploads/2020/07/api-visual.png'
-    }
 ]
 
 export const testimonials = [
