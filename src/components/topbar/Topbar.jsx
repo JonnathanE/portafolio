@@ -18,6 +18,9 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                         <a href='#about'>About</a>
                     </div>
                     <div className="itemContainer">
+                        <a href='#skill'>Skill</a>
+                    </div>
+                    <div className="itemContainer">
                         <a href='#portfolio'>Portfolio</a>
                     </div>
                     <div className="itemContainer">

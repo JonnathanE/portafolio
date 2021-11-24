@@ -5,6 +5,7 @@ import Contact from './components/contact/Contact';
 import Intro from './components/intro/Intro';
 import Menu from './components/menu/Menu';
 import Portfolio from './components/portfolio/Portfolio';
+import Skill from './components/skill/Skill';
 import Testimonials from './components/testimonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
 import Works from './components/works/Works';
@@ -20,6 +21,7 @@ function App() {
       <div className='sections'>
         <Intro />
         <About />
+        <Skill />
         <Portfolio />
         <Works />
         <Testimonials />
