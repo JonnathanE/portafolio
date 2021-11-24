@@ -24,13 +24,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                         <a href='#portfolio'>Portfolio</a>
                     </div>
                     <div className="itemContainer">
-                        <a href='#works'>Works</a>
-                    </div>
-                    <div className="itemContainer">
-                        <a href='#testimonials'>Testimonials</a>
-                    </div>
-                    <div className="itemContainer">
-                        <a href='#contact'>Contact</a>
+                        <a href='#contacts'>Contact</a>
                     </div>
                     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
