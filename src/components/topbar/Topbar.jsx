@@ -1,4 +1,3 @@
-import { Mail, Person } from '@material-ui/icons'
 import React from 'react'
 import PropTypes from 'prop-types'
 import './topbar.scss'
@@ -14,6 +13,9 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                 <div className="right">
                     <div className="itemContainer">
                         <a href='#intro'>Home</a>
+                    </div>
+                    <div className="itemContainer">
+                        <a href='#about'>About</a>
                     </div>
                     <div className="itemContainer">
                         <a href='#portfolio'>Portfolio</a>

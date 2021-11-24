@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.scss';
+import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Intro from './components/intro/Intro';
 import Menu from './components/menu/Menu';
@@ -18,6 +19,7 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className='sections'>
         <Intro />
+        <About />
         <Portfolio />
         <Works />
         <Testimonials />
