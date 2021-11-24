@@ -9,14 +9,15 @@ const Contacts = () => {
             <h1>Contact</h1>
             <div className="contactContainer">
                 <div className="contactItem">
-                    <Email className='emailContact ' />
+                    <Email className='emailContactIcon ' />
+                    <img src='assets/email.png' alt=""/>
                 </div>
 
                 <a href="https://github.com/JonnathanE" target="blank" rel="noopener noreferrer"><GitHub className='iconContact' />Follow Me</a>
 
                 <a href="https://twitter.com/JonnathanE1" target="blank" rel="noopener noreferrer"><Twitter className='iconContact' /> Follow Me</a>
 
-                <a href="https://twitter.com/JonnathanE1" target="blank" rel="noopener noreferrer"><LinkedIn className='iconContact' />Contact Me</a>
+                <a href="https://www.linkedin.com/in/jonnathan-espinoza-604a41226" target="blank" rel="noopener noreferrer"><LinkedIn className='iconContact' />Contact Me</a>
 
             </div>
             <Footer />
