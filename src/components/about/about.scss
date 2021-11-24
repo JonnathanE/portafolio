@@ -82,10 +82,11 @@
                     display        : flex;
                     flex-direction : column;
                     justify-content: space-between;
+                    align-items    : center;
                     padding        : 32px;
 
                     p {
-                        font-size : 16px;
+                        font-size : 14px;
                         color     : black;
                         text-align: justify;
 
@@ -97,7 +98,7 @@
                     .listDescription {
                         display       : flex;
                         flex-direction: column;
-                        font-size     : 16px;
+                        font-size     : 14px;
 
                         h2 {
                             margin-bottom: 4px;
@@ -125,6 +126,24 @@
                                     color: $accentColor;
                                 }
                             }
+                        }
+                    }
+
+                    a {
+                        width           : 50%;
+                        font-size       : 14px;
+                        text-align      : center;
+                        text-decoration : none;
+                        background-color: $accentColor;
+                        color           : $textColor;
+                        border          : 0.5px solid $accentColor;
+                        border-radius   : 10px;
+                        padding         : 7px;
+                        cursor          : pointer;
+
+                        &:hover {
+                            background-color: $darkAccentColor;
+                            color           : black;
                         }
                     }
                 }

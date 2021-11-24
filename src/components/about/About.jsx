@@ -1,6 +1,7 @@
 import { DoubleArrow } from '@material-ui/icons'
 import React from 'react'
 import './about.scss'
+import cvPDF from '../../docs/cv.pdf';
 
 const About = () => {
     return (
@@ -10,7 +11,7 @@ const About = () => {
             <div className="container">
                 <div className="card">
                     <div className="left">
-                        <img src="assets/man.png" alt="" />
+                        <img src="assets/perfil.jpeg" alt="" />
                     </div>
                     <div className="right">
                         <div className="wrapper">
@@ -25,6 +26,9 @@ const About = () => {
                                     <li><DoubleArrow className='bullet' /> Managing database</li>
                                 </ul>
                             </div>
+                            <a href={cvPDF} download>
+                                Download CV
+                            </a>
                         </div>
 
                     </div>
