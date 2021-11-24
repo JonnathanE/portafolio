@@ -9,16 +9,24 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
             <div className="wrapper">
                 <div className="left">
                     <a href='#intro' className='logo'>JEDE</a>
-                    <div className="itemContainer">
-                        <Person className='icon' />
-                        <span>+507 924 12 74</span>
-                    </div>
-                    <div className="itemContainer">
-                        <Mail className='icon' />
-                        <span>ldsjfs@jede.com</span>
-                    </div>
+
                 </div>
                 <div className="right">
+                    <div className="itemContainer">
+                        <a href='#intro'>Home</a>
+                    </div>
+                    <div className="itemContainer">
+                        <a href='#portfolio'>Portfolio</a>
+                    </div>
+                    <div className="itemContainer">
+                        <a href='#works'>Works</a>
+                    </div>
+                    <div className="itemContainer">
+                        <a href='#testimonials'>Testimonials</a>
+                    </div>
+                    <div className="itemContainer">
+                        <a href='#contact'>Contact</a>
+                    </div>
                     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
                         <span className="line2"></span>

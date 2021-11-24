@@ -14,14 +14,14 @@ function App() {
 
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className='sections'>
-        <Intro/>
-        <Portfolio/>
-        <Works/>
-        <Testimonials/>
-        <Contact/>
+        <Intro />
+        <Portfolio />
+        <Works />
+        <Testimonials />
+        <Contact />
       </div>
     </div>
   );
