@@ -139,3 +139,46 @@ export const testimonials = [
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, et illo fugit reiciendis dicta quaerat magni.'
     }
 ]
+
+export const skills = [
+    {
+        id: 1,
+        image: 'assets/icons8-javascript.svg',
+        name: 'JavaScript'
+    },
+    {
+        id: 2,
+        image: 'assets/icons8-html-5.svg',
+        name: 'HTML'
+    },
+    {
+        id: 3,
+        image: 'assets/icons8-css3.svg',
+        name: 'CSS'
+    },
+    {
+        id: 4,
+        image: 'assets/icons8-reaccionar.svg',
+        name: 'React'
+    },
+    {
+        id: 5,
+        image: 'assets/icons8-nodejs.svg',
+        name: 'Node js'
+    },
+    {
+        id: 6,
+        image: 'assets/icons8-mongodb.svg',
+        name: 'MongoDB'
+    },
+    {
+        id: 7,
+        image: 'assets/icons8-logo-de-mysql.svg',
+        name: 'MySQL'
+    },
+    {
+        id: 8,
+        image: 'assets/icons8-git.svg',
+        name: 'Git',
+    }
+]

@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import './App.scss';
-import Contact from './components/contact/Contact';
+import About from './components/about/About';
+import Contacts from './components/contacts/Contacts';
 import Intro from './components/intro/Intro';
 import Menu from './components/menu/Menu';
 import Portfolio from './components/portfolio/Portfolio';
-import Testimonials from './components/testimonials/Testimonials';
+import Skill from './components/skill/Skill';
 import Topbar from './components/topbar/Topbar';
-import Works from './components/works/Works';
 
 function App() {
 
@@ -14,14 +14,14 @@ function App() {
 
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className='sections'>
-        <Intro/>
-        <Portfolio/>
-        <Works/>
-        <Testimonials/>
-        <Contact/>
+        <Intro />
+        <About />
+        <Skill />
+        <Portfolio />
+        <Contacts />
       </div>
     </div>
   );
