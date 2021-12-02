@@ -1,4 +1,3 @@
-import { red } from '@material-ui/core/colors'
 import { Favorite } from '@material-ui/icons'
 import React from 'react'
 import './footer.scss'
