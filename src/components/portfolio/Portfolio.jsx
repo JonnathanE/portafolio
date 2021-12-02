@@ -2,6 +2,7 @@ import { React, useState, useEffect } from 'react'
 import PortfolioList from '../portfolioList/PortfolioList'
 import './portfolio.scss'
 import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio } from '../../data';
+import { GitHub, Public } from '@material-ui/icons';
 
 const Portfolio = () => {
 
@@ -16,18 +17,6 @@ const Portfolio = () => {
         {
             id: 'web',
             title: 'Web App'
-        },
-        {
-            id: 'mobile',
-            title: 'Mobile App'
-        },
-        {
-            id: 'design',
-            title: 'Design'
-        },
-        {
-            id: 'content',
-            title: 'Content'
         }
     ]
 
@@ -66,7 +55,11 @@ const Portfolio = () => {
                 {data.map(d => (
                     <div className="item" key={d.id}>
                         <img src={d.img} alt="" />
-                        <h3>{d.title}</h3>
+                        <div className="itemInfo">
+                            <h3>{d.title}</h3>
+                            {d.preview && <a href={d.preview} target='_blank' rel="noreferrer"><button><Public className='itemIcon' />  Preview</button></a>}
+                            <a href={d.repository} target='_blank' rel="noreferrer"><button><GitHub className='itemIcon' />  Repository</button></a>
+                        </div>
                     </div>
                 ))}
             </div>
