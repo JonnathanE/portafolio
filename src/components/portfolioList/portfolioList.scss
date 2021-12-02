@@ -6,13 +6,14 @@
     padding      : 7px;
     border-radius: 10px;
     cursor       : pointer;
+    color        : $textColor;
 
     @include mobile {
         margin-right: 20px;
     }
 
     &.active {
-        background-color: $mainColor;
+        background-color: $accentColor;
         color           : white;
     }
 }

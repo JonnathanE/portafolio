@@ -1,90 +1,56 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: 'Social Media App',
-        img: 'https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg'
+        title: 'Teach LSEC App',
+        img: 'assets/portfolio/LSEC_App.png',
+        preview: 'https://learn-lsec.herokuapp.com/',
+        repository: 'https://github.com/JonnathanE/microlearning-LSEC'
     },
     {
         id: 2,
-        title: 'Rampa UI Design',
-        img: 'https://st2.depositphotos.com/26272052/46295/v/600/depositphotos_462951428-stock-illustration-pop-art-skate-park-icon.jpg'
-    },
-    {
-        id: 3,
         title: 'E-commerce web Design',
-        img: 'https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/30/posts/26768/image/journal-3.jpg'
+        img: 'assets/portfolio/ecommerce.png',
+        repository: 'https://github.com/JonnathanE/ecommerce-shopping'
     }
 ]
 
 export const webPortfolio = [
     {
         id: 1,
-        title: 'Web Social Media App',
-        img: 'https://st3.depositphotos.com/20523356/32070/v/1600/depositphotos_320701138-stock-illustration-social-media-network-inspired-twitter.jpg'
+        title: 'Teach LSEC App',
+        img: 'assets/portfolio/LSEC_App.png',
+        preview: 'https://learn-lsec.herokuapp.com/',
+        repository: 'https://github.com/JonnathanE/microlearning-LSEC'
     },
     {
         id: 2,
-        title: 'Web Rampa UI Design',
-        img: 'https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg'
-    },
-    {
-        id: 3,
-        title: 'Web E-commerce web Design',
-        img: 'https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg'
+        title: 'E-commerce web Design',
+        img: 'assets/portfolio/ecommerce.png',
+        repository: 'https://github.com/JonnathanE/ecommerce-shopping'
     }
 ]
 
 export const mobilePortfolio = [
     {
         id: 1,
-        title: 'Mobile Social Media App',
-        img: 'https://blog-assets.hootsuite.com/wp-content/uploads/2022/02/Screen-Shot-2019-02-04-at-9.18.45-AM.png'
-    },
-    {
-        id: 2,
-        title: 'Mobile Rampa UI Design',
-        img: 'https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg'
-    },
-    {
-        id: 3,
-        title: 'Mobile E-commerce web Design',
-        img: 'https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg'
+        title: 'Teach LSEC App',
+        img: 'assets/portfolio/LSEC_App.png'
     }
 ]
 
 export const designPortfolio = [
     {
         id: 1,
-        title: 'Design Social Media App',
-        img: 'https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg'
-    },
-    {
-        id: 2,
-        title: 'Design Rampa UI Design',
-        img: 'https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg'
-    },
-    {
-        id: 3,
-        title: 'Design E-commerce web Design',
-        img: 'https://ecommerce-platforms.com/wp-content/uploads/2018/01/ecommerce-webstite-design_opt.png'
+        title: 'Teach LSEC App',
+        img: 'assets/portfolio/LSEC_App.png'
     }
 ]
 
 export const contentPortfolio = [
     {
         id: 1,
-        title: 'Content Social Media App',
-        img: 'https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg'
-    },
-    {
-        id: 2,
-        title: 'Content Rampa UI Design',
-        img: 'https://uploads-ssl.webflow.com/5d5065aaa4a3707be089b7db/5e127a0d946b126218bbda28_6ee3dc43b57f5b1e03f179187c4f26fa.jpg'
-    },
-    {
-        id: 3,
-        title: 'Content E-commerce web Design',
-        img: 'https://cdn.frooition.com/000000/img/2018/website-collage.png'
+        title: 'Teach LSEC App',
+        img: 'assets/portfolio/LSEC_App.png'
     }
 ]
 
@@ -110,13 +76,6 @@ export const works = [
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae saepe mollitia.',
         img: 'https://www.jessicajonesdesign.com/wp-content/uploads/2020/01/brand-designer-jessica-jones-logos.gif'
     },
-    {
-        id: '4',
-        icon: './assets/writing.png',
-        title: 'API LSEC',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae saepe mollitia.',
-        img: 'https://www.academiaweb.ca/wp-content/uploads/2020/07/api-visual.png'
-    }
 ]
 
 export const testimonials = [
@@ -144,5 +103,48 @@ export const testimonials = [
         img: 'https://cdn.pixabay.com/photo/2016/11/11/04/19/sport-1815798_960_720.jpg',
         icon: 'assets/linkedin.png',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, et illo fugit reiciendis dicta quaerat magni.'
+    }
+]
+
+export const skills = [
+    {
+        id: 1,
+        image: 'assets/icons8-javascript.svg',
+        name: 'JavaScript'
+    },
+    {
+        id: 2,
+        image: 'assets/icons8-html-5.svg',
+        name: 'HTML'
+    },
+    {
+        id: 3,
+        image: 'assets/icons8-css3.svg',
+        name: 'CSS'
+    },
+    {
+        id: 4,
+        image: 'assets/icons8-reaccionar.svg',
+        name: 'React'
+    },
+    {
+        id: 5,
+        image: 'assets/icons8-nodejs.svg',
+        name: 'Node js'
+    },
+    {
+        id: 6,
+        image: 'assets/icons8-mongodb.svg',
+        name: 'MongoDB'
+    },
+    {
+        id: 7,
+        image: 'assets/icons8-logo-de-mysql.svg',
+        name: 'MySQL'
+    },
+    {
+        id: 8,
+        image: 'assets/icons8-git.svg',
+        name: 'Git',
     }
 ]

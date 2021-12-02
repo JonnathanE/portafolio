@@ -1,6 +1,7 @@
 import { React, useEffect, useRef } from 'react'
 import './intro.scss'
 import { init } from 'ityped'
+import { KeyboardArrowDown } from '@material-ui/icons';
 
 const Intro = () => {
 
@@ -19,7 +20,7 @@ const Intro = () => {
         <div className='intro' id='intro'>
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/man.png" alt="" />
+                    <img src="assets/perfil_intro_circle.png" alt="" />
                 </div>
             </div>
             <div className="right">
@@ -29,7 +30,7 @@ const Intro = () => {
                     <h3>Freelance <span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
-                    <img src="assets/down.png" alt="" />
+                    <KeyboardArrowDown className='arrowDown'/>
                 </a>
             </div>
         </div>
