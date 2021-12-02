@@ -29,7 +29,7 @@ const Intro = () => {
                     <h1>Jonnathan Damián Espinoza Erráez</h1>
                     <h3>Freelance <span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#about">
                     <KeyboardArrowDown className='arrowDown'/>
                 </a>
             </div>
